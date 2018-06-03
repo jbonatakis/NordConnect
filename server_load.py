@@ -47,5 +47,5 @@ counter = 0
 
 for s in sorted_servers:
     if s["load"] >0 and s["load"] <= 10 and counter < num:
-        print(color.GREEN + color.BOLD + str(s["server"]).ljust(18, ' ') + ": " + color.END +  str(s["load"]))
+        print(color.GREEN + color.BOLD + str(s["server"]).ljust(18, ' ') + ": " + color.END +  str(s["load"]) + "%")
         counter +=1
