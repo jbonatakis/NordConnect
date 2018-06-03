@@ -3,6 +3,7 @@
 A program to determine which NordVPN server is currently under the lightest load.
 This project inspired by: https://github.com/mrzool/nordvpn-server-find
 
+![server-load](https://raw.githubusercontent.com/jbonatakis/vpn-server-load/master/pictures/server-load.png)
 ### Requirements
 * Python 3
 
