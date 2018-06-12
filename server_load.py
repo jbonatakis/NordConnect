@@ -34,9 +34,11 @@ def main():
 
     # Create list of dicts, sort by load, print all servers + their load if load <= 10 (make server load limit sys.argv[2])
     for s in data:
-        if s[0:2] == sys.argv[1]:
+        if s[0:2] in sys.argv:
             server_dict = {"server":s, "load":int(data[s]["percent"])}
             servers.append(server_dict.copy())
+        # Provide else statement here. Fails if no country code provided in sys.argv
+        # Set up default upon first initiation of program. Save in $XDG_CONFIG_HOME/NordConnect/default
 
     sorted_servers = sorted(servers, key=lambda k: k["load"])
 
