@@ -1,5 +1,7 @@
 # NordVPN Server Load Analyzer
 
+### Note: Project incomplete/in progress, below content not necessarily up to date
+
 A program to determine which NordVPN server is currently under the lightest load.
 
 This project inspired by: [https://github.com/mrzool/nordvpn-server-find](https://github.com/mrzool/nordvpn-server-find)
